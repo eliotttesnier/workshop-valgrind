@@ -7,8 +7,8 @@
 
 #!/bin/bash
 
-if command -v clang &> /dev/null; then
-    COMPILER="clang"
+if command -v epiclang &> /dev/null; then
+    COMPILER="epiclang"
 else
     COMPILER="gcc"
 fi
