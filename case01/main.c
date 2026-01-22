@@ -7,7 +7,8 @@
 
 #include <stdlib.h>
 
-int main(void) {
+int main(void)
+{
     char *str = malloc(sizeof(char) * 10);
 
     if (str == NULL) {
