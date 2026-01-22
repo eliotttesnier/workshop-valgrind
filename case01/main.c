@@ -12,7 +12,7 @@ int main(void)
     char *str = malloc(sizeof(char) * 10);
 
     if (str == NULL) {
-        return 1;
+        return 84;
     }
     str[10] = 'a';
     free(str);
